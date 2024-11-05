@@ -13,8 +13,8 @@ public class TestKlass {
         logik.raknaRad("Detta är en test");
 
         assertEquals(2, logik.getAntalRader());
-        assertEquals(21, logik.getAntalTecken()); // "Hej världen" + "Detta är en test" = 21 tecken
-        assertEquals(5, logik.getAntalOrd());      // 5 ord totalt
+        assertEquals(27, logik.getAntalTecken()); // "Hej världen" + "Detta är en test" = 21 tecken
+        assertEquals(6, logik.getAntalOrd());      // 5 ord totalt
     }
 
     // Testar att det längsta ordet identifieras korrekt
